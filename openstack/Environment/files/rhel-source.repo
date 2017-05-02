@@ -1,0 +1,17 @@
+[Server]
+name=Red Hat Enterprise Linux
+baseurl=http://172.25.6.250/rhel7.2
+enabled=1
+gpgcheck=0
+
+[mitaka]
+name=Reh Hat Enterprise Linux
+baseurl=http://172.25.6.250/mitaka
+enabled=1
+gpgcheck=0
+
+[salt]
+name=saltstack
+baseurl=http://172.25.6.250/rhel7
+enabled=1
+gpgcheck=0
